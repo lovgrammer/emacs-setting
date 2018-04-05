@@ -1,0 +1,71 @@
+# -*- mode: snippet -*-
+# name: task
+# key: task
+# --
+package ${1:`(mapconcat 'identity (cdr (member "src" (split-string default-directory "/" t))) ".")`};
+
+import android.content.Context;
+import ${2:`(find-package)`}.ApiPaths;
+import $2.model.${3:ResultObject};
+import retrofit.RestAdapter;
+import retrofit.RetrofitError;
+import retrofit.client.Response;
+import retrofit.http.GET;
+import retrofit.http.Query;
+
+public class ${4:`(file-name-sans-extension (buffer-name))`} extends BaseAsyncTask<$3> {
+
+    private Context mContext;
+
+    private $3TaskListener mListener;
+
+    public interface $3TaskListener {
+	public void onSuccess($3 result);
+	public void onFailure($3 result);
+    }
+
+    public void set$3TaskListener($3TaskListener listener) {
+	mListener = listener;
+    }
+
+    public $4(Context context) {
+	super(context);
+	mContext = context;
+    }
+
+    public interface $3TaskApi {
+	@GET(ApiPaths.${5:API}_PATH)
+	$3 create();
+    }
+
+    @Override
+    protected $3 doInBackground(Void... args) {
+	RestAdapter restAdapter = getRestAdapter();
+	$3TaskApi register = restAdapter.create($3TaskApi.class);
+	$3 result = null;
+	try {
+	    result = register.create();
+	} catch (RetrofitError error) {
+	}
+	return result;
+    }
+
+    @Override
+    public void loadFinished($3 result) {
+	if (mListener != null && result != null) {
+	    mListener.onSuccess(result);
+	} else {
+	    mListener.onFailure(result);
+	}
+    }
+
+    @Override
+    public String getLoadingMessage() {
+	return "로딩중...";
+    }
+
+    @Override
+    public String getLoadingId() {
+	return "loading";
+    }
+}$0

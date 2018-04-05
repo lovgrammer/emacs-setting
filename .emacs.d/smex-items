@@ -1,0 +1,21 @@
+
+;; ----- smex-history -----
+(
+ make-directory
+ gradle-mode
+ package-list-packages
+ package-install
+ kill-buffer
+ revert-buffer-with-coding-system
+ cd
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 14)
+ (revert-buffer-with-coding-system . 1)
+ (kill-buffer . 1)
+ (gradle-mode . 4)
+ (make-directory . 4)
+ (package-list-packages . 5)
+)

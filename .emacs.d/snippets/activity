@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: activity
+# key: activity
+# --
+package ${1:`(mapconcat 'identity (cdr (member "src" (split-string default-directory "/" t))) ".")`};
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class ${2:`(file-name-sans-extension (buffer-name))`}$3 extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+	$0
+    }
+}

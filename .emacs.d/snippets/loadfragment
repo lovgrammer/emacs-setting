@@ -1,0 +1,41 @@
+# -*- mode: snippet -*-
+# name: loaddata fragment
+# key: lfrag
+# --
+package ${1:`(mapconcat 'identity (cdr (member "src" (split-string default-directory "/" t))) ".")`};
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.ViewGroup;
+import android.widget.ListView;
+import butterknife.InjectView;
+import butterknife.Views;
+import ${2:`(find-package)`}.R;
+import ${3:`(find-package)`}.ui.BaseActivity;
+import ${4:`(find-package)`}.ui.LoadDataFragment;
+import ${5:`(find-package)`}.provider.BaseDataProvider;
+
+public class ${6:`(file-name-sans-extension (buffer-name))`} extends LoadDataFragment {
+
+    @InjectView(R.id.list) ListView mListView;
+
+    private BaseActivity mActivity;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+	mActivity = (BaseActivity) getActivity();
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+	View v = inflater.inflate($7, null);
+	Views.inject(this, v);
+	return v;
+    }
+
+    @Override
+    public BaseDataProvider getProvider() {
+	return $0
+    }
+}

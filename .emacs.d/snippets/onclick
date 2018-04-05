@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: OnClickListener
+# key: onclick
+# --
+OnClickListener onButtonsClick = new OnClickListener() {
+	@Override
+	public void onClick(View v) {
+	    switch(v.getId()) {
+
+	    }
+	}
+    };

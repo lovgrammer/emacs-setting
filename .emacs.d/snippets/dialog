@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: dialog
+# key: dialog
+# --
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+import ${1:`(find-package)`}.ui.BaseDialogFragment.DialogClickListener;
+
+public void showDialogMessage(String message) {
+    FragmentTransaction ft = getFragmentManager().beginTransaction();
+    Fragment prev = getFragmentManager().findFragmentByTag("dialog");
+    if (prev != null) {
+	ft.remove(prev);
+    }
+    ft.addToBackStack(null);
+    BaseDialogFragment newFragment
+	= BaseDialogFragment.newInstance("",
+					 message,
+					 false);
+    newFragment.show(ft, "dialog");
+}

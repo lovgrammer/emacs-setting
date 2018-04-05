@@ -1,0 +1,373 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ (#("c:/Users/jylee/work/msnl/2018/tutorial/project1/webserver/public/" 58 65 (face ido-only-match)) . #("css/" 0 4 (face ido-only-match)))
+ ("c:/Users/jylee/work/msnl/2018/tutorial/project1/webserver/" . #("public/" 0 7 (face ido-first-match)))
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/monitor/public/" . #("test5/" 0 6 (face ido-first-match)))
+ (#("c:/Users/jylee/work/msnl/2018/tmp/" 30 34 (face ido-only-match)) . #("data/" 0 5 (face ido-only-match)))
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/client/" . "app/")
+ ("c:/Users/jylee/work/msnl/tmp/" . "data/")
+ ("c:/Users/jylee/work/msnl/2018/android/TaskLogger/sample/src/" . "main/")
+ ("c:/Users/jylee/work/msnl/2018/tutorial/" . "project1/")
+ ("c:/Users/jylee/Downloads/" . "proj1/")
+ ("c:/Users/jylee/work/msnl/2018/samples/PacketMonitoring/" . "app/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/com/google/" . "flatbuffers/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/com/" . "google/")
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/res/" . "values/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/" . #("ipc/" 0 4 (face ido-first-match)))
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/google/" . "flatbuffers/")
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/osmonitor/" . "util/")
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/" . "osmonitor/")
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/" . "eolwral/")
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/" . "com/")
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/" . "java/")
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/" . "main/")
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/" . "src/")
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/" . "app/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/monitor/" . "views/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/" . #("vpn/" 0 4 (face ido-first-match)))
+ ("c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/app/src/main/java/com/example/sanzharaubakir/" . "packetmonitoring/")
+ ("c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/app/src/main/java/com/example/" . "sanzharaubakir/")
+ ("c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/app/src/main/java/com/" . "example/")
+ ("c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/app/src/main/java/" . "com/")
+ ("c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/app/src/main/" . "java/")
+ ("c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/app/src/" . "main/")
+ ("c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/app/" . "src/")
+ ("c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/" . "app/")
+ ("c:/Users/jylee/work/msnl/2018/android/android-datacollector/app/src/main/java/com/skt/" . "contextplatform/")
+ ("c:/Users/jylee/work/msnl/2018/android/android-datacollector/app/src/main/java/com/" . "skt/")
+ ("c:/Users/jylee/work/msnl/2018/android/android-datacollector/app/src/main/java/" . "com/")
+ ("c:/Users/jylee/work/msnl/2018/android/android-datacollector/app/src/main/" . "java/")
+ ("c:/Users/jylee/work/msnl/2018/android/android-datacollector/app/src/" . "main/")
+ ("c:/Users/jylee/work/msnl/2018/android/android-datacollector/app/" . "src/")
+ ("c:/Users/jylee/work/msnl/2018/samples/android-packet-capture/app/" . "build/")
+ ("c:/Users/jylee/work/msnl/2018/samples/android-packet-capture/" . "app/")
+ ("c:/Users/jylee/work/msnl/2018/samples/Interceptor/" . "app/")
+ ("c:/Users/jylee/work/msnl/2018/android/android-bgdatarestrictor/app/src/" . "main/")
+ ("c:/Users/jylee/work/msnl/2018/android/android-bgdatarestrictor/app/" . "src/")
+ ("c:/Users/jylee/work/msnl/2018/android/LocalPacketMonitor/app/src/main/java/msnl/unist/" . "localpacketmonitor/")
+ ("c:/Users/jylee/work/msnl/2018/android/LocalPacketMonitor/app/src/main/java/msnl/" . "unist/")
+ ("c:/Users/jylee/work/msnl/2018/android/LocalPacketMonitor/app/src/main/java/" . "msnl/")
+ ("c:/Users/jylee/work/msnl/2018/android/LocalPacketMonitor/" . "app/")
+ ("c:/Users/jylee/work/msnl/2018/samples/LocalVPN/app/src/main/java/xyz/hexene/" . "localvpn/")
+ ("c:/Users/jylee/work/msnl/2018/samples/LocalVPN/app/src/main/java/xyz/" . "hexene/")
+ ("c:/Users/jylee/work/msnl/2018/samples/LocalVPN/app/src/main/java/" . "xyz/")
+ ("c:/Users/jylee/work/msnl/2018/samples/LocalVPN/app/src/main/" . "java/")
+ ("c:/Users/jylee/work/msnl/2018/android/LocalPacketMonitor/app/src/main/" . "java/")
+ ("c:/Users/jylee/work/msnl/2018/android/LocalPacketMonitor/app/src/" . "main/")
+ ("c:/Users/jylee/work/msnl/2018/samples/LocalVPN/app/src/" . "main/")
+ ("c:/Users/jylee/work/msnl/2018/android/LocalPacketMonitor/app/" . "src/")
+ ("c:/Users/jylee/work/msnl/2018/samples/LocalVPN/app/" . "src/")
+ ("c:/Users/jylee/work/msnl/2018/samples/LocalVPN/" . "app/")
+ ("c:/Users/jylee/work/msnl/2018/samples/" . "OSMonitor/")
+ ("c:/Users/jylee/work/msnl/2018/tmp/ProxyPhone/app/src/main/res/" . "layout/")
+ ("c:/Users/jylee/work/msnl/2018/tmp/ProxyPhone/app/src/main/java/kr/ac/unist/msn/" . "proxyphone/")
+ ("c:/Users/jylee/work/msnl/2018/tmp/ProxyPhone/app/src/main/java/kr/ac/unist/" . "msn/")
+ ("c:/Users/jylee/work/msnl/2018/tmp/ProxyPhone/app/src/main/java/kr/ac/" . "unist/")
+ ("c:/Users/jylee/work/msnl/2018/tmp/ProxyPhone/app/src/main/java/kr/" . "ac/")
+ ("c:/Users/jylee/work/msnl/2018/tmp/ProxyPhone/app/src/main/java/" . "kr/")
+ ("c:/Users/jylee/work/msnl/2018/tmp/ProxyPhone/app/src/main/" . "res/")
+ ("c:/Users/jylee/work/msnl/2018/tmp/ProxyPhone/" . "app/")
+ ("c:/" . "Users/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/res/" . "values/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/" . "toyvpn/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/" . "msnl/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/" . "unist/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/" . "java/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/" . "main/")
+ ("c:/Users/jylee/AndroidStudioProjects/" . "ProxyPhone/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/" . "src/")
+ ("c:/Users/jylee/work/msnl/2018/android/" . #("ProxyPhone/" 0 11 (face ido-first-match)))
+ ("c:/Users/jylee/AppData/Roaming/.emacs.d/settings/" . "settings/")
+ ("c:/Users/jylee/AppData/Roaming/.emacs.d/snippets/" . "android/")
+ ("c:/Users/jylee/work/msnl/2018/" . #("tmp/" 0 4 (face ido-only-match)))
+ ("c:/Users/jylee/work/msnl/" . #("2018/" 0 5 (face ido-first-match)))
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/" . "app/")
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/" . #("server/" 0 7 (face ido-first-match)))
+ ("c:/Users/jylee/work/" . #("msnl/" 0 5 (face ido-first-match)))
+ ("c:/Users/jylee/AppData/Roaming/.emacs.d/settings/settings/vendor/" . "emacs-gradle-mode/")
+ ("c:/Users/jylee/AppData/Roaming/.emacs.d/settings/settings/" . "vendor/")
+ ("c:/Users/jylee/AppData/Local/Android/" . "Sdk/")
+ ("c:/Users/jylee/AppData/Local/" . "Android/")
+ ("c:/Users/" . "jylee/")
+ ("c:/Users/jylee/AppData/Roaming/.emacs.d/vendor/" . "emacs-gradle-mode/")
+ ("c:/Users/jylee/AppData/" . "Local/")
+ ("c:/Users/jylee/" . #("work/" 0 5 (face ido-first-match)))
+ ("c:/Users/jylee/AppData/Roaming/.emacs.d/" . "settings/")
+ ("c:/Users/jylee/AppData/Roaming/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ #("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/core/" 92 97 (face ido-only-match))
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/status/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/vpn/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/settings/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/util/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/ipc/"
+ "c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/osmonitor/util/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/ui/"
+ "c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/osmonitor/ipc/"
+ "c:/Users/jylee/work/msnl/2018/android/TaskLogger/sample/src/main/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/res/layout/"
+ "c:/Users/jylee/work/"
+ "c:/Users/jylee/work/msnl/2018/tutorial/echo/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/vpn/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/monitor/views/"
+ "c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/res/layout/"
+ "c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/osmonitor/ui/"
+ "c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/osmonitor/"
+ "c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/res/values/"
+ "c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/"
+ "c:/Users/jylee/work/msnl/2018/samples/OSMonitor/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/preference/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/res/values/"
+ "c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/osmonitor/preference/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/volley/"
+ "c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/osmonitor/settings/"
+ "c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/"
+ "c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/app/src/main/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/monitor/public/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/"
+ "c:/Users/jylee/work/msnl/2018/android/android-datacollector/app/src/main/java/com/skt/contextplatform/"
+ "c:/Users/jylee/work/msnl/2018/android/android-datacollector/app/src/main/"
+ "c:/Users/jylee/work/msnl/2018/samples/Interceptor/"
+ "c:/Users/jylee/work/msnl/2018/samples/android-packet-capture/app/"
+ "c:/Users/jylee/work/msnl/2018/samples/Interceptor/app/"
+ "c:/Users/jylee/work/msnl/2018/samples/LocalVPN/"
+ "c:/Users/jylee/work/msnl/2018/android/ProxyPhone/"
+ "c:/Users/jylee/work/msnl/2018/android/LocalPacketMonitor/app/src/main/java/msnl/unist/localpacketmonitor/"
+ "c:/Users/jylee/work/msnl/2018/android/LocalPacketMonitor/app/src/main/"
+ "c:/Users/jylee/work/msnl/2018/samples/NetGuard/app/src/main/java/eu/faircode/netguard/"
+ "c:/Users/jylee/work/msnl/2018/samples/NetGuard/"
+ "c:/Users/jylee/work/msnl/2018/android/android-datacollector/"
+ "c:/Users/jylee/work/msnl/2018/android/android-bgdatarestrictor/app/src/main/"
+ "c:/Users/jylee/work/msnl/2018/android/development-master-samples-ToyVpn/src/com/example/android/toyvpn/"
+ "c:/Users/jylee/work/msnl/2018/android/LocalPacketMonitor/app/"
+ "c:/Users/jylee/work/msnl/2018/samples/LocalVPN/app/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ #("connectionInfo.java" 0 19 (face ido-first-match))
+ "ActivityMonitorService.java"
+ "ToyVpnConnection.java"
+ "ToyVpnService.java"
+ "OSMonitorService.java"
+ "Settings.java"
+ "CoreUtil.java"
+ "SettingsHelper.java"
+ "IpcService.java"
+ "ProcessUtil.java"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/Users/jylee/work/msnl/2018/tutorial/project1/webserver/" (23233 55669 0 0) "threadpool/" "thread/" "server-thread-pool.cpp" "server-single.cpp" "server-multi.cpp" "public/" "Makefile" "index.html" ".DS_Store" "../" "./")
+
+ (#("c:/Users/jylee/work/msnl/2018/tutorial/project1/webserver/public/css/" 65 69 (face ido-only-match)) (23233 55638 0 0) "style.css" "bootstrap.min.css.map" "bootstrap.min.css" "bootstrap.css.map" "bootstrap.css" "bootstrap-reboot.min.css.map" "bootstrap-reboot.min.css" "bootstrap-reboot.css.map" "bootstrap-reboot.css" "bootstrap-grid.min.css.map" "bootstrap-grid.min.css" "bootstrap-grid.css.map" #("bootstrap-grid.css" 0 18 (face ido-first-match)) "../" "./")
+
+ (#("c:/Users/jylee/work/msnl/2018/tutorial/project1/webserver/public/js/" 58 65 (face ido-only-match) 65 68 (face ido-only-match)) (23233 54854 0 0) "bootstrap.min.js.map" "bootstrap.min.js" "bootstrap.js.map" "bootstrap.js" "bootstrap.bundle.min.js.map" "bootstrap.bundle.min.js" "bootstrap.bundle.js.map" #("bootstrap.bundle.js" 0 19 (face ido-first-match)) "../" "./")
+
+ (#("c:/Users/jylee/work/msnl/2018/tutorial/project1/webserver/public/" 58 65 (face ido-only-match)) (23233 55041 0 0) #("js/" 0 3 (face ido-first-match)) "images/" #("css/" 0 4 (face ido-only-match)) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/project1/" (23233 54495 0 0) "~WRL0003.tmp" #("[Project1] Webserver Programming.docx" 0 37 (face ido-first-match)) "webserver-skeleton.zip" "webserver-skeleton/" "webserver/" ".DS_Store" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/status/" (23233 53347 0 0) "StatusDataCollector.java" "SocketService.java" "ScreenMonitorService.java" #("ProxyPhoneService.java" 0 22 (face ido-only-match)) "OSMonitorService.java" "NotiMonitorService.java" #("BootUpReceiver.java" 0 19 (face ido-first-match)) "ActivityMonitorService.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/monitor/" (23233 51841 0 0) #("views/" 0 6 (face ido-first-match)) "routes/" "public/" "package.json" "package-lock.json" "node_modules/" "bin/" "app.js" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/monitor/public/test5/" (23233 52011 0 0) "packets.csv~" #("packets.csv" 0 11 (face ido-only-match)) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/monitor/public/js/" (23233 51802 0 0) #("script.js" 0 9 (face ido-only-match)) "../" "./")
+
+ (#("c:/Users/jylee/work/msnl/2018/tmp/data/" 30 34 (face ido-only-match) 34 39 (face ido-only-match)) (23233 51674 0 0) #("packets.csv" 0 11 (face ido-only-match)) "../" "./")
+
+ (#("c:/Users/jylee/work/msnl/2018/tmp/" 30 34 (face ido-only-match)) (23233 51508 0 0) "ProxyPhone/" #("Hello.java" 0 10 (face ido-first-match)) #("data/" 0 5 (face ido-only-match)) "backup/" "app/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/monitor/public/" (23233 51726 0 0) #("test5/" 0 6 (face ido-first-match)) "test4/" "test3/" "test2/" #("test1/" 0 6 (face ido-first-match)) "stylesheets/" #("pull.sh" 0 7 (face ido-only-match)) "js/" #("images/" 0 7 (face ido-first-match)) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/monitor/public/test3/" (23219 31850 0 0) "screen.csv" "packets.csv" "fgapp.csv" "connection.csv" #("batt.csv" 0 8 (face ido-first-match)) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/monitor/public/test4/" (23219 31972 0 0) "screen.csv" "noti.csv" "log.txt" "fgapp.csv" "connection.csv" #("batt.csv" 0 8 (face ido-first-match)) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/client/server/" (23233 49939 0 0) "server.cpp" "Makefile" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/client/app/src/main/java/com/example/sanzharaubakir/localvpn/" (23233 50194 0 0) "ToyVpnService.java" "Prefs.java" "NotificationsMonitoringService.java" "MainActivity.java" "LocalVPNService.java" "LocalVpnConnection.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/" (23233 49606 0 0) "project1/" "proj1/" "mirror/" "echo/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/" (23233 49939 0 0) "client/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/client/" (23233 49921 0 0) "settings.gradle" "server/" "local.properties" "gradlew.bat" "gradlew" "gradle.properties" "gradle/" "build.gradle" "build/" "app/" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/client/app/" (23233 49864 0 0) "src/" "proguard-rules.pro" "build.gradle" "build/" ".gitignore" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/client/app/src/" (23233 49772 0 0) "test/" "main/" "androidTest/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/client/app/src/main/" (23233 49772 0 0) "res/" "java/" "AndroidManifest.xml" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/client/app/src/main/java/" (23233 49772 0 0) "com/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/client/app/src/main/java/com/" (23233 49772 0 0) "example/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/client/app/src/main/java/com/example/" (23233 49772 0 0) "sanzharaubakir/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/mirror/client/app/src/main/java/com/example/sanzharaubakir/" (23233 49772 0 0) "localvpn/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/vpn/" (23227 13008 0 0) "_index.html" "ToyVpnServer.cpp" "ToyVpnServer" "tags" "socket.cpp" "socket" "setup.sh" "run.sh" "Makefile" ".gitignore" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/tmp/data/" (23233 48836 0 0) "log.txt" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/tmp/" (23233 48794 0 0) "toyvpn-server.zip" "toyvpn-client.zip" "echo/" "data/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/project1/webserver-skeleton/" (23233 36614 0 0) "[Project1] Web Server Programming.pdf" "threadpool/" "thread/" "server.cpp" "Makefile" "index.html" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/project1/webserver-skeleton/threadpool/" (23233 35648 0 0) "ThreadPool.h" "Makefile" "example.cpp" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/project1/webserver-skeleton/thread/" (23233 35617 0 0) "Makefile" "ex4.cpp" "ex3.cpp" "ex2.cpp" "ex1.cpp" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/project1/webserver/threadpool/" (23233 35062 0 0) "ThreadPool.h" "run" "Makefile" "example.cpp" "../" "./")
+
+ ("c:/Users/jylee/work/" (23228 18974 0 0) "wiki/" "msnl/" "bin/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/" (23228 45921 0 0) "res/" "obj/" "libs/" "jni/" #("java/" 0 5 (face ido-first-match)) "assets/" "AndroidManifest.xml" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/ui/" (23229 41301 0 0) "ScreenMonitorActivity.java" "NotiMonitorActivity.java" "MainActivity.java" "BaseFragmentActivity.java" "BaseActivity.java" "BackStackActivity.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/settings/" (23209 56065 0 0) "SettingsHelper.java" "Settings.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/util/" (23216 56371 0 0) "UserInterfaceUtil.java" "ProcessUtil.java" "HttpUtil.java" "CoreUtil.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/core/" (23225 63528 0 0) "processStatus.java" "processorInfoList.java" "processorInfo.java" "processInfoList.java" "processInfo.java" "osInfo.java" "networkInfoList.java" "networkInfo.java" "logPriority.java" "dmesgLevel.java" "cpuInfoList.java" "cpuInfo.java" "connectionType.java" "connectionStatus.java" "connectionInfoList.java" #("connectionInfo.java" 0 19 (face ido-first-match)) #("commandInfo.java" 0 16 (face ido-first-match)) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/vpn/" (23210 15524 0 0) "ToyVpnService.java" "ToyVpnConnection.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/osmonitor/ui/" (23210 12405 0 0) "ProcessPriorityFragment.java" "ProcessLogViewFragment.java" "ProcessFragment.java" "MiscProcessorFragment.java" "MiscFragment.java" "MessageProcessFragment.java" "MessageFragment.java" "MainActivity.java~" "MainActivity.java" "ConnectionStaticMapFragment.java" "ConnectionFragment.java" "BaseFragmentActivity.java" "BaseActivity.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/jni/src/" (23189 16554 0 0) "ipc/" "core/" "config.h" "android/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/jni/src/core/" (23189 16554 0 0) "processor.cc" "process.cc" "os.cc" "network.cc" "logcat_v3.cc" "logcat.cc" "dmesg.cc" "cpu.cc" "connection.cc" "command.cc" "base.cc" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/jni/include/core/" (23189 16554 0 0) "processorInfo_generated.h" "processor.h" "processInfo_generated.h" "process.h" "osInfo_generated.h" "os.h" "networkInfo_generated.h" "network.h" "logger_v3.h" "logger.h" "logcat_v3.h" "logcatInfo_generated.h" "logcat.h" "dmesgInfo_generated.h" "dmesg.h" "cpuInfo_generated.h" "cpu.h" "connectionInfo_generated.h" "connection.h" "commandInfo_generated.h" "command.h" "base.h" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/" (23190 12904 0 0) "src/" "proguard-rules.pro" "debug.keystore" "build.gradle" "build/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/" (23189 16554 0 0) "main/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/" (23189 16554 0 0) "com/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/" (23189 16554 0 0) "google/" "eolwral/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/" (23189 16554 0 0) "osmonitor/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/osmonitor/core/" (23189 16554 0 0) "processStatus.java" "processorInfoList.java" "processorInfo.java" "processInfoList.java" "processInfo.java" "osInfo.java" "networkInfoList.java" "networkInfo.java" "logPriority.java" "logcatInfoList.java" "logcatInfo.java" "dmesgLevel.java" "dmesgInfoList.java" "dmesgInfo.java" "cpuInfoList.java" "cpuInfo.java" "connectionType.java" "connectionStatus.java" "connectionInfoList.java" "connectionInfo.java" "commandType.java" "commandInfo.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/" (23209 55673 0 0) #("unist/" 0 6 (face ido-first-match)) "com/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/TaskLogger/sample/src/" (23228 33630 0 0) "main/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/TaskLogger/sample/src/main/java/" (23228 33630 0 0) "com/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/TaskLogger/sample/src/main/java/com/" (23228 33630 0 0) "reginald/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/TaskLogger/sample/src/main/java/com/reginald/" (23228 33630 0 0) "tasklogger/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/TaskLogger/sample/src/main/java/com/reginald/tasklogger/" (23228 33630 0 0) "sample/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/TaskLogger/sample/src/main/java/com/reginald/tasklogger/sample/" (23228 33630 0 0) "MainActivity.java" "BaseActivity.java" "ActivityB.java" "ActivityA.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/TaskLogger/sample/src/main/" (23228 33630 0 0) "res/" "java/" "AndroidManifest.xml" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/TaskLogger/" (23228 33697 0 0) "tasklogger/" "settings.gradle" "sample/" "README.md" "output1.png" "local.properties" "gradlew.bat" "gradlew" "gradle.properties" "gradle/" "build.gradle" "build/" ".gradle/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/" (23228 33627 0 0) "TestVPN/" "TaskLogger/" #("ProxyPhone/" 0 11 (face ido-first-match)) "LocalPacketMonitor/" "development-master-samples-ToyVpn/" "android-notificationtracker/" "android-datacollector/" "android-bgdatarestrictor/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/res/layout/" (23228 20337 0 0) "ui_misc_item_processor_fragment.xml" "ui_misc_item_processor_detail.xml" "ui_connection_item.xml" "ui_connection_fragment.xml~" "ui_connection_fragment.xml" "layout_screen_monitor.xml~" "layout_screen_monitor.xml" "layout_noti_monitor.xml" "layout_back_stack.xml" "activity_socket.xml" "activity_notification_monitor.xml~" "activity_notification_monitor.xml" "activity_main.xml" "activity_base_fragment.xml" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/" (23227 12997 0 0) #("server/" 0 7 (face ido-first-match)) "client/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/" (23227 10768 0 0) #("src/" 0 4 (face ido-first-match)) "proguard-rules.pro" "build.gradle" "build/" "app.iml" ".gitignore" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/" (23225 60193 0 0) "tutorial/" #("tmp/" 0 4 (face ido-only-match)) "samples/" #("echo.zip" 0 8 (face ido-first-match)) "echo/" #("android/" 0 8 (face ido-first-match)) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/echo/" (23225 56864 0 0) "server.c~" "server.c" "Makefile" "client.c" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/echo/" (23225 51087 0 0) "server_multi.c" "server.c" "Makefile.c" "client.c" "../" "./")
+
+ ("c:/Users/jylee/Downloads/" (23224 50895 0 0) "한글2014.zip" "한글2014/" "한글 제품키.txt" "한국어.locale.properties" "직장가입자자격상실신고서[별지 제6호서식].hwp" "직장가입자자격상실신고서[별지 제6호서식] (1).hwp" "이종윤-180323_ProxyPhone-1.pptx" "이종윤-180307_ProxyPhone.pptx" "이종윤-180307_ProxyPhone (1).pptx" "소망교회 청년부 회칙.hwp" "대학원 신입생 OT 발표자료.zip" "대학원 룸메이트 신청서.pdf" "대학원 룸메이트 신청서 (1).pdf" "건강보험 직장가입자 자격상실 신고서 등.hwp" "건강보험 자격득실확인서 조회방법.hwp" "건강보험 자격득실확인서 조회방법 (3).hwp" "건강보험 자격득실확인서 조회방법 (2).hwp" "건강보험 자격득실확인서 조회방법 (1).hwp" "[이종윤] ProxyPhone.zip" "[Spring 2018] Graduate Program Handbook.pdf" "[HCI] 20185171_Jongyunlee_ProxyPhone.pptx" "[HCI] 20185171_Jongyunlee_ProxyPhone (1).pptx" "Wireshark-win64-2.4.5.exe" "vs_community__632060780.1517812922.exe" "vs_community__632060780.1517812922 (1).exe" "VirtualBox-5.2.6-120293-Win.exe" "veraport-g3-x64.exe" "veraport-g3-x64-sha2.exe" "veraport-g3-x64-sha2 (1).exe" "ubuntu-16.04.3-desktop-amd64.iso" "ubuntu-14.04.5-desktop-amd64.iso.torrent" "ubuntu-14.04.5-desktop-amd64.iso" "TouchEn_nxKey_32bit.exe" "Timetable.docx" "Timetable (1).docx" "TeamViewer_Setup.exe" "swigwin-3.0.12.zip" "swig-3.0.12.tar.gz" "study-20160317.zip" "sharpkeys36.msi" "Setup.X86.ko-kr_O365ProPlusRetail_0dfedcb0-5156-41fb-9dd1-5a8ac6220154_TX_SG_b_64_.exe" "Setup.exe" "Setup (1).exe" "settings.zip" "Screenshot_20180308-125340.png" "Screenshot_20180308-125326.png" "Screenshot_20180308-125326 (1).png" "Screenshot_20180308-125223.png" "Screenshot_20180308-125216.png" "Screenshot_20180308-125216 (1).png" "Screenshot_20180308-124541.png" "Screenshot_20180308-124427.png" "Screenshot_20180308-124302.png" "Screenshot_20180308-124247.png" "SciTE4AHK300601_Install.exe" "python-3.6.3-amd64.exe" "python-2.7.13.msi" "putty-64bit-0.70-installer.msi" "proj1.zip" "proj1/" "nvm-setup.zip" "nvm-noinstall.zip" "NLiveCastSetup.exe" "netguard_20180308.pcap" "MSNL 미팅 점수.gsheet" "MSKLC.exe" "MS office 이용 방법.txt" "Mirror-Device.pptx" "memo_for_meeting.txt" "Lecture 2 - Generative Models_UNIST_v01.pptx" "Lecture 1 - Introduction_UNIST.pptx" "KSCertRelay_nx_Installer_32bit.exe" "KeyTweak_install.exe" "KakaoTalk_Setup.exe" "jdk-9.0.4_windows-x64_bin.exe" "jdk-8u161-windows-x64.exe" "JavaSetup8u161.exe" "htkz.exe" "gradle-4.5.1-all.zip" "gnutls-3.4.15-w32-bin.zip" "GitHubDesktopSetup.exe" "Git-2.16.1.4-64-bit.exe" "Git-2.16.1.4-64-bit (1).exe" "genymotion-2.11.0-vbox.exe" "gc_2018090_CSE35101_svdownload_2018-03-19-19-28-48.csv" "gc_2018090_CSE35101_fullgc_2018-03-19-19-55-02.xls" "Fundamentals-of-cellular-network-planning-and-optimisation-2G-2-5G-3G-evolution-to-4G.pdf" "Form 2.docx" "Form 1.doc" "fire.zip" "fire/" "finector-research3.pdf" "finector-research2.pdf" "finector-research1.pdf" "FDroid.apk" "emacs-26.0.90-x86_64.zip" "emacs-26.0.90-x86_64-deps.zip" "emacs-25.3-x86_64.zip" "eclipse-inst-win64.exe" "eclipse-inst-win64 (1).exe" "easykeyteccab.exe" "easykeyteccab (1).exe" "DropboxInstaller.exe" "DropboxInstaller (1).exe" "drfone_switch_setup_full3850.exe" "development-master-samples-ToyVpn.tar.gz" "desktop.ini" "DAmoWebCryptoSetup_3.0.0.13.exe" "D2Coding-Ver1.3-20171129.zip" "Cyber Security Issue 9월동향 보고서.pdf" "curl-7.58.0.zip" "curl-7.58.0-win64-mingw.7z" "cmder.zip" "CAS-Context-Aware-Background-Application-Scheduling-in-Interactive-Mobile-Systems.pdf" "BonjourPSSetup.exe" "BonjourPSSetup (1).exe" "bitstream_vera_mono.zip" "BDCAMSETUP_KOR.EXE" "BANDIZIP-SETUP-KR.EXE" "Badge_c5c082d5b52f4015ae85a650a2f9b9fb.pdf" "Badge_4f44a3496bb34ed4bdfbc78b1e7da348.pdf" "AutoHotkey_1.1.27.07_setup.exe" "AutoHotkey_1.1.27.07_setup (1).exe" "AtomSetup-x64.exe" "AnySign_Installer.exe" "android-studio-ide-171.4443003-windows.exe" "android-notificationtracker-master-39dd10f0716d5cd7aad6aaa17b9182fe1c59dca4.zip" "android-ndk-r16b-windows-x86_64.zip" "android-ndk-r15c-windows-x86_64.zip" "android-ndk-r12b-windows-x86_64.zip" "android-datacollector-master-e097b88dff5525a26738300d9539a0ae0a6460ca.zip" "android-bgdatarestrictor-master-4c73f68be48db687a6a84f845e6bee5e98d6f066.zip" "additional-recommended-steps-for-new-ubuntu-14-04-servers.html" "390.77-desktop-win10-64bit-international-whql.exe" "211_8.pdf" "2018_03_08_110448.pcap" "2018_03_07_193342.pcap" "2018_03_07_193342 (1).pcap" "1이종윤.jpg" "180304 청년부 임원 회의.hwp" "180107 청년부 임원 회의.hwp" "%5BK-브리프+2016년+제22호%5D+WEF+세계경쟁력+분석.pdf" "../" "./")
+
+ ("c:/Users/jylee/Downloads/proj1/" (23224 45813 0 0) "web_server.c" "web_server" "screenshot.png" "Makefile" "index.html" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tutorial/proj1/" (23224 32793 0 0) "server_tut.c" "server.c" "Makefile" "client.c" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/tmp/backup/" (23219 27907 0 0) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/" (23168 61839 0 0) "tmp/" "2018/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/analysis/" (23219 13699 0 0) "tags" "PcapMonitor.cpp" "PcapMonitor" "Makefile" "Dumper.cpp" "Dumper" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/log/" (23216 44738 0 0) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/" (23219 12079 0 0) #("vpn/" 0 4 (face ido-first-match)) "monitor/" "log/" "archive/" "analysis/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/server/monitor/views/" (23216 63628 0 0) "layout.pug" "index.html" "error.pug" "../" "./")
+
+ ("c:/Users/" (23155 55848 0 0) "Public/" "jylee/" "desktop.ini" "Default User/" "Default/" "All Users/" "../" "./")
+
+ ("c:/Users/jylee/" (23217 56302 0 0) "시작 메뉴/" #("work/" 0 5 (face ido-first-match)) "VirtualBox VMs/" "Videos/" "Templates/" "source/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{5ea47656-08af-11e8-941a-509a4c23cd9d}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{5ea47656-08af-11e8-941a-509a4c23cd9d}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{5ea47656-08af-11e8-941a-509a4c23cd9d}.TM.blf" "NTUSER.DAT{5ea47655-08af-11e8-941a-509a4c23cd9d}.TxR.blf" "NTUSER.DAT{5ea47655-08af-11e8-941a-509a4c23cd9d}.TxR.2.regtrans-ms" "NTUSER.DAT{5ea47655-08af-11e8-941a-509a4c23cd9d}.TxR.1.regtrans-ms" "NTUSER.DAT{5ea47655-08af-11e8-941a-509a4c23cd9d}.TxR.0.regtrans-ms" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "MyScript.ahk.ahk" "My Documents/" "Music/" "MicrosoftEdgeBackups/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Foxit Reader SDK ActiveX.ini" "Favorites/" "eclipse-workspace/" "eclipse/" "Dropbox/" "Downloads/" "Documents/" "Developer/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "AndroidStudioProjects/" "3D Objects/" ".VirtualBox/" ".viminfo" ".tooling/" ".ssh/" ".p2/" ".node_repl_history" ".gradle/" ".gitconfig" ".eclipse/" ".dotnet/" ".bash_history" ".atom/" ".AndroidStudio3.0/" ".android/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/osmonitor/" (23210 12452 0 0) "util/" "ui/" "settings/" "provider/" "preference/" "OSMonitorService.java" "OSMonitorActivity.java" "OSMonitor.java" "ipc/" "db/" "core/" "BootUpReceiver.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/" (23210 11900 0 0) "res/" "obj/" "libs/" "jni/" "java/" "assets/" "AndroidManifest.xml" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/" (23211 5156 0 0) "volley/" "settings.gradle" "README.md" "local.properties" "LICENSE.osmonitor.txt" "gradlew.bat" "gradlew" "gradle.properties" "gradle/" "colorpicker/" "CHANGELOG.md" "build.gradle" "build/" "app/" ".gradle/" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/PacketMonitoring/app/" (23211 5051 0 0) "src/" "proguard-rules.pro" "build.gradle" ".gitignore" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/PacketMonitoring/app/src/" (23211 5051 0 0) "test/" "main/" "androidTest/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/PacketMonitoring/app/src/main/" (23211 5051 0 0) "res/" "java/" "AndroidManifest.xml" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/PacketMonitoring/" (23211 5051 0 0) "settings.gradle" "README.md" "gradlew.bat" "gradlew" "gradle.properties" "gradle/" "build.gradle" "app/" ".idea/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/" (23211 5049 0 0) "PacketMonitoring/" "OSMonitor/" "NetGuard/" "LocalVPN/" "Interceptor/" "ics-openvpn/" "android-pcap/" "android-packet-capture/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/" (23211 5003 0 0) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/" (23211 4446 0 0) "volley/" "toyvpn-client.iml" "settings.gradle" "README.md" "local.properties" "gradlew.bat" "gradlew" "gradle.properties" "gradle/" "colorpicker/" "client.iml" "build.gradle" "build/" #("app/" 0 4 (face ido-first-match)) ".idea/" ".gradle/" ".gitignore" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/app/src/main/java/com/example/sanzharaubakir/packetmonitoring/" (23210 18252 0 0) "MainService.java" "MainActivity.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/" (23210 15361 0 0) "vpn/" "util/" "ui/" #("status/" 0 7 (face ido-first-match)) "settings/" "provider/" "preference/" #("ipc/" 0 4 (face ido-first-match)) "db/" #("core/" 0 5 (face ido-first-match)) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/preference/" (23210 15614 0 0) "ProcessorPreference.java~" "ProcessorPreference.java" "OSMPreference.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/res/layout/" (23210 10557 0 0) "ui_process_priority.xml" "ui_process_menu_sort.xml" "ui_process_item_detail.xml" "ui_process_item.xml" "ui_process_fragment.xml" "ui_process_action.xml" "ui_notification.xml" "ui_misc_item_system.xml" "ui_misc_item_swap.xml" "ui_misc_item_processor_fragment.xml" "ui_misc_item_processor_detail.xml" "ui_misc_item_processor.xml" "ui_misc_item_network.xml" "ui_misc_item_memory.xml" "ui_misc_item_battery.xml" "ui_misc_item.xml" "ui_misc_fragment.xml" "ui_message_options.xml" "ui_message_item.xml" "ui_message_fragment.xml" "ui_message_export.xml" "ui_message_action.xml" "ui_main.xml" "ui_help_windows.xml" "ui_connection_static_map.xml" "ui_connection_item.xml" "ui_connection_fragment.xml" "activity_base_fragment.xml~" "activity_base_fragment.xml" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/PacketMonitoring/app/src/main/" (23207 18669 0 0) "res/" "java/" "AndroidManifest.xml" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/com/google/flatbuffers/" (23189 16554 0 0) "Table.java" "Struct.java" "FlatBufferBuilder.java" "Constants.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/com/google/" (23189 16554 0 0) "flatbuffers/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/com/" (23209 55680 0 0) "google/" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/" (23168 59876 0 0) #("msnl/" 0 5 (face ido-only-match)) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/toyvpn/ipc/" (23210 8793 0 0) "ipcType.java" "IpcService.java" "ipcMessage.java" "ipcData.java" #("IpcConnection.java" 0 18 (face ido-first-match)) "ipcCategory.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/samples/OSMonitor/app/src/main/java/com/eolwral/osmonitor/ipc/" (23210 8023 0 0) "ipcType.java" "IpcService.java" "ipcMessage.java" "ipcData.java" "IpcConnection.java" "ipcCategory.java" "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/java/unist/msnl/" (23168 59876 0 0) #("toyvpn/" 0 7 (face ido-only-match)) "../" "./")
+
+ ("c:/Users/jylee/work/msnl/2018/android/ProxyPhone/client/app/src/main/res/" (23210 1655 0 0) "xml/" "values/" "mipmap-xxxhdpi/" "mipmap-xxhdpi/" "mipmap-xhdpi/" "mipmap-mdpi/" "mipmap-hdpi/" "menu/" "layout/" "drawable/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

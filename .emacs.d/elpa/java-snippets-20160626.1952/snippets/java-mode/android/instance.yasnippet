@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: instance
+# key: instance
+# --
+public static ${1:`(file-name-sans-extension (buffer-name))`} newInstance() {
+    $1 f = new $1();
+    return f;
+}
